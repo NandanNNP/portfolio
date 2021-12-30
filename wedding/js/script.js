@@ -1,5 +1,5 @@
 /**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+ * 
  */
 (function ($) {
     "use strict";
@@ -20,10 +20,11 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('click', function(){
+
+
+window.onload = function() {
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
-});
+  }
 
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 15, 2022 10:30:00").getTime();

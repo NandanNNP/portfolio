@@ -164,6 +164,25 @@ p {
 .content:hover .content-overlay {
   opacity: 0.8;
 }
+
+@media (min-width:960px) {
+  .content-image {
+    width: 228px;
+    height: 114px;
+  }
+  
+}
+
+@media (max-width: 959px){
+  .content-image {
+    width: 135px;
+    height: 67px;
+  }
+  
+  
+}
+
+
 .content-details {
   position: absolute;
   text-align: center;
